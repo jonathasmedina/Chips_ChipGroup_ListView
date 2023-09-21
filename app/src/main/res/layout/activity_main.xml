@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroupChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        app:chipSpacing="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip4Choice"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+
+            android:layout_height="wrap_content"
+            android:text="Rock" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip5Choice"
+            android:textSize="18sp"
+
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metal" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip6Choice"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+
+            android:layout_height="wrap_content"
+            android:text="Thrash metal" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip7Choice"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+
+            android:layout_height="wrap_content"
+            android:text="Rock classico" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip8Choice"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+
+            android:layout_height="wrap_content"
+            android:text="Pop Rock" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip9Choice"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+
+            android:layout_height="wrap_content"
+            android:text="Pop" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip10Choice"
+            android:textSize="18sp"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lo-fi" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
