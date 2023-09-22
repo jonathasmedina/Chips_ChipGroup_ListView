@@ -102,7 +102,7 @@ public class Tela2 extends AppCompatActivity {
 
         for(String estilo: estiloArray){
             for(Banda item: arrayListCopia){
-                if(item.toString().contains(estilo)){
+                if(item.getEstilo().contains(estilo)){
                     arrayList.add(item);
                 }
             }
